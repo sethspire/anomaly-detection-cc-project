@@ -16,7 +16,7 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s  :  %(message)s",
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler("anomaly_pipeline.log", mode="a", encoding="utf-8")
+        logging.FileHandler("/var/log/fastapi/anomaly_pipeline.log", mode="a", encoding="utf-8")
     ]
 )
 logger = logging.getLogger(__name__)

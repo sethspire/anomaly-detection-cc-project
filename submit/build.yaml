@@ -146,6 +146,10 @@ Resources:
           WantedBy=multi-user.target
           EOF
 
+          sudo mkdir -p /var/log/fastapi
+          sudo chown -R ubuntu:ubuntu /var/log/fastapi
+          sudo chmod -R 755 /var/log/fastapi
+
           systemctl daemon-reload
           systemctl enable fastapi
           systemctl start fastapi
