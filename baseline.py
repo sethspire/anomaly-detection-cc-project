@@ -7,6 +7,8 @@ from typing import Optional
 
 s3 = boto3.client("s3")
 
+import logging
+logger = logging.getLogger(__name__)
 
 class BaselineManager:
     """
@@ -27,12 +29,31 @@ class BaselineManager:
 
     def save(self, baseline: dict):
         baseline["last_updated"] = datetime.utcnow().isoformat()
-        s3.put_object(
-            Bucket=self.bucket,
-            Key=self.baseline_key,
-            Body=json.dumps(baseline, indent=2),
-            ContentType="application/json"
-        )
+        try:
+            s3.put_object(
+                Bucket=self.bucket,
+                Key=self.baseline_key,
+                Body=json.dumps(baseline, indent=2),
+                ContentType="application/json"
+            )
+            logger.info("Saved new baseline to S3")
+        except Exception as e:
+            logger.exception(f"Failed to save baseline: {e}")
+        
+        # load log file and store in s3
+        try:
+            with open("anomaly_pipeline.log", "rb") as f:
+                s3.put_object(
+                    Bucket=self.bucket,
+                    Key="logs/anomaly_pipeline.log",
+                    Body=f,
+                    ContentType="text/plain"
+                )
+            logger.info("Uploaded log file to S3")
+        except FileNotFoundError:
+            logger.warning("Log file not found for upload")
+        except Exception:
+            logger.exception("Failed to upload log file")
 
     def update(self, baseline: dict, channel: str, new_values: list[float]) -> dict:
         """

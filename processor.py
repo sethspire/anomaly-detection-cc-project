@@ -10,21 +10,38 @@ from detector import AnomalyDetector
 
 s3 = boto3.client("s3")
 
+import logging
+logger = logging.getLogger(__name__)
+
 
 NUMERIC_COLS = ["temperature", "humidity", "pressure", "wind_speed"]  # students configure this
 
 def process_file(bucket: str, key: str):
     print(f"Processing: s3://{bucket}/{key}")
+    logger.info(f"Started Processing: s3://{bucket}/{key}")
 
     # 1. Download raw file
-    response = s3.get_object(Bucket=bucket, Key=key)
-    df = pd.read_csv(io.BytesIO(response["Body"].read()))
+    try:
+        response = s3.get_object(Bucket=bucket, Key=key)
+    except Exception as e:
+        logger.exception(f"Failed to read raw file {key}: {e}")
+        return
+    
+    try:
+        df = pd.read_csv(io.BytesIO(response["Body"].read()))
+    except Exception as e:
+        logger.exception(f"Failed to read raw file {key}: {e}")
+        return
 
     print(f"  Loaded {len(df)} rows, columns: {list(df.columns)}")
 
     # 2. Load current baseline
     baseline_mgr = BaselineManager(bucket=bucket)
-    baseline = baseline_mgr.load()
+    try:
+        baseline = baseline_mgr.load()
+    except Exception:
+        logger.exception("Failed to load baseline")
+        return
 
     # 3. Update baseline with values from this batch BEFORE scoring
     #    (use only non-null values for each channel)
@@ -42,15 +59,24 @@ def process_file(bucket: str, key: str):
     output_key = key.replace("raw/", "processed/")
     csv_buffer = io.StringIO()
     scored_df.to_csv(csv_buffer, index=False)
-    s3.put_object(
-        Bucket=bucket,
-        Key=output_key,
-        Body=csv_buffer.getvalue(),
-        ContentType="text/csv"
-    )
+    try:
+        s3.put_object(
+            Bucket=bucket,
+            Key=output_key,
+            Body=csv_buffer.getvalue(),
+            ContentType="text/csv"
+        )
+    except Exception as e:
+        logger.exception(f"Failed to write processed file to s3://{bucket}/{output_key}: {e}")
+        return
+    logger.info(f"Stored processed file to s3://{bucket}/{output_key}")
 
     # 6. Save updated baseline back to S3
-    baseline_mgr.save(baseline)
+    try:
+        baseline_mgr.save(baseline)
+    except Exception as e:
+        logger.exception(f"Failed to save baseline: {e}")
+        return
 
     # 7. Build and return a processing summary
     anomaly_count = int(scored_df["anomaly"].sum()) if "anomaly" in scored_df else 0
@@ -65,15 +91,21 @@ def process_file(bucket: str, key: str):
             col: baseline.get(col, {}).get("count", 0) for col in NUMERIC_COLS
         }
     }
+    logger.info(f"File s3://{bucket}/{key} had anomaly rate of {summary['anomaly_rate']}")
 
     # Write summary JSON alongside the processed file
     summary_key = output_key.replace(".csv", "_summary.json")
-    s3.put_object(
-        Bucket=bucket,
-        Key=summary_key,
-        Body=json.dumps(summary, indent=2),
-        ContentType="application/json"
-    )
+    try:
+        s3.put_object(
+            Bucket=bucket,
+            Key=summary_key,
+            Body=json.dumps(summary, indent=2),
+            ContentType="application/json"
+        )
+    except Exception as e:
+        logger.exception(f"Failed to write summary to s3://{bucket}/{summary_key}: {e}")
+        return
 
     print(f"  Done: {anomaly_count}/{len(df)} anomalies flagged")
+    logger.info(f"Finished Processing: s3://{bucket}/{key}")
     return summary
