@@ -178,6 +178,10 @@ Resources:
 
   AppSubscription:
     Type: AWS::SNS::Subscription
+    DependsOn:
+      - AppInstance
+      - AppTopic
+      - AppEIP
     Properties:
       TopicArn: !Ref AppTopic
       Protocol: http

@@ -42,7 +42,7 @@ class BaselineManager:
         
         # load log file and store in s3
         try:
-            with open("anomaly_pipeline.log", "rb") as f:
+            with open("/var/log/fastapi/anomaly_pipeline.log", "rb") as f:
                 s3.put_object(
                     Bucket=self.bucket,
                     Key="logs/anomaly_pipeline.log",
@@ -52,8 +52,8 @@ class BaselineManager:
             logger.info("Uploaded log file to S3")
         except FileNotFoundError:
             logger.warning("Log file not found for upload")
-        except Exception:
-            logger.exception("Failed to upload log file")
+        except Exception as e:
+            logger.exception(f"Failed to upload log file: {e}")
 
     def update(self, baseline: dict, channel: str, new_values: list[float]) -> dict:
         """

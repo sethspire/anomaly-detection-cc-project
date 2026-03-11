@@ -32,6 +32,7 @@ if not BUCKET_NAME:
 
 @app.post("/notify")
 async def handle_sns(request: Request, background_tasks: BackgroundTasks):
+    logger.info("Received SNS notification for processing")
     try:
         body = await request.json()
     except Exception as e:
