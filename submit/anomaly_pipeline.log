@@ -1,0 +1,570 @@
+2026-03-11 17:56:23,762 - INFO - uvicorn.error  :  Started server process [3994]
+2026-03-11 17:56:23,763 - INFO - uvicorn.error  :  Waiting for application startup.
+2026-03-11 17:56:23,764 - INFO - uvicorn.error  :  Application startup complete.
+2026-03-11 17:56:23,765 - INFO - uvicorn.error  :  Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-03-11 17:56:57,880 - INFO - app  :  Received SNS notification for processing
+2026-03-11 17:58:58,234 - INFO - app  :  Received SNS notification for processing
+2026-03-11 17:58:58,234 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 17:58:58,243 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T175857.csv
+2026-03-11 17:58:58,667 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T175857.csv
+2026-03-11 17:58:58,695 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 17:58:58,728 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 17:58:58,729 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T175857.csv had anomaly rate of 0.06
+2026-03-11 17:58:58,756 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T175857.csv
+2026-03-11 17:59:58,772 - INFO - app  :  Received SNS notification for processing
+2026-03-11 17:59:58,772 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 17:59:58,774 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T175957.csv
+2026-03-11 17:59:59,168 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T175957.csv
+2026-03-11 17:59:59,199 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 17:59:59,221 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 17:59:59,222 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T175957.csv had anomaly rate of 0.06
+2026-03-11 17:59:59,278 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T175957.csv
+2026-03-11 18:00:58,604 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:00:58,604 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:00:58,605 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180057.csv
+2026-03-11 18:00:58,959 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T180057.csv
+2026-03-11 18:00:58,989 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:00:59,016 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:00:59,016 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T180057.csv had anomaly rate of 0.06
+2026-03-11 18:00:59,043 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180057.csv
+2026-03-11 18:01:59,088 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:01:59,089 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:01:59,090 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180157.csv
+2026-03-11 18:01:59,440 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T180157.csv
+2026-03-11 18:01:59,466 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:01:59,495 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:01:59,495 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T180157.csv had anomaly rate of 0.05
+2026-03-11 18:01:59,520 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180157.csv
+2026-03-11 18:02:58,968 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:02:58,969 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:02:58,970 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180258.csv
+2026-03-11 18:02:59,462 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T180258.csv
+2026-03-11 18:02:59,490 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:02:59,514 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:02:59,515 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T180258.csv had anomaly rate of 0.05
+2026-03-11 18:02:59,546 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180258.csv
+2026-03-11 18:03:59,341 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:03:59,341 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:03:59,343 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180358.csv
+2026-03-11 18:03:59,743 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T180358.csv
+2026-03-11 18:03:59,779 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:03:59,811 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:03:59,812 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T180358.csv had anomaly rate of 0.06
+2026-03-11 18:03:59,851 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180358.csv
+2026-03-11 18:04:59,072 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:04:59,072 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:04:59,073 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180458.csv
+2026-03-11 18:04:59,448 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T180458.csv
+2026-03-11 18:04:59,480 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:04:59,510 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:04:59,511 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T180458.csv had anomaly rate of 0.06
+2026-03-11 18:04:59,545 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180458.csv
+2026-03-11 18:05:59,311 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:05:59,311 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:05:59,312 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180558.csv
+2026-03-11 18:05:59,697 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T180558.csv
+2026-03-11 18:05:59,782 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:05:59,810 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:05:59,811 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T180558.csv had anomaly rate of 0.05
+2026-03-11 18:05:59,840 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180558.csv
+2026-03-11 18:06:59,011 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:06:59,011 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:06:59,013 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180658.csv
+2026-03-11 18:06:59,375 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T180658.csv
+2026-03-11 18:06:59,399 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:06:59,427 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:06:59,428 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T180658.csv had anomaly rate of 0.06
+2026-03-11 18:06:59,472 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180658.csv
+2026-03-11 18:07:59,609 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:07:59,609 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:07:59,610 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180758.csv
+2026-03-11 18:07:59,992 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T180758.csv
+2026-03-11 18:08:00,067 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:08:00,109 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:08:00,109 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T180758.csv had anomaly rate of 0.05
+2026-03-11 18:08:00,163 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180758.csv
+2026-03-11 18:08:59,313 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:08:59,314 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:08:59,315 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180858.csv
+2026-03-11 18:08:59,723 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T180858.csv
+2026-03-11 18:08:59,752 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:08:59,780 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:08:59,781 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T180858.csv had anomaly rate of 0.05
+2026-03-11 18:08:59,808 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180858.csv
+2026-03-11 18:09:59,833 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:09:59,833 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:09:59,835 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180958.csv
+2026-03-11 18:10:00,469 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T180958.csv
+2026-03-11 18:10:00,502 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:10:00,534 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:10:00,535 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T180958.csv had anomaly rate of 0.06
+2026-03-11 18:10:00,566 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T180958.csv
+2026-03-11 18:10:59,505 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:10:59,506 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:10:59,507 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181058.csv
+2026-03-11 18:11:00,042 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T181058.csv
+2026-03-11 18:11:00,096 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:11:00,135 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:11:00,136 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T181058.csv had anomaly rate of 0.06
+2026-03-11 18:11:00,194 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181058.csv
+2026-03-11 18:11:59,938 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:11:59,940 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:11:59,942 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181158.csv
+2026-03-11 18:12:00,555 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T181158.csv
+2026-03-11 18:12:00,585 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:12:00,618 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:12:00,618 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T181158.csv had anomaly rate of 0.05
+2026-03-11 18:12:00,652 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181158.csv
+2026-03-11 18:13:00,457 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:13:00,457 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:13:00,459 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181259.csv
+2026-03-11 18:13:00,828 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T181259.csv
+2026-03-11 18:13:00,856 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:13:00,880 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:13:00,881 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T181259.csv had anomaly rate of 0.06
+2026-03-11 18:13:00,912 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181259.csv
+2026-03-11 18:14:00,090 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:14:00,090 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:14:00,092 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181359.csv
+2026-03-11 18:14:00,596 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T181359.csv
+2026-03-11 18:14:00,629 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:14:00,655 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:14:00,656 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T181359.csv had anomaly rate of 0.05
+2026-03-11 18:14:00,683 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181359.csv
+2026-03-11 18:15:00,476 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:15:00,476 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:15:00,478 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181459.csv
+2026-03-11 18:15:00,949 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T181459.csv
+2026-03-11 18:15:00,982 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:15:01,017 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:15:01,017 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T181459.csv had anomaly rate of 0.06
+2026-03-11 18:15:01,055 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181459.csv
+2026-03-11 18:16:00,312 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:16:00,312 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:16:00,319 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181559.csv
+2026-03-11 18:16:00,826 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T181559.csv
+2026-03-11 18:16:00,867 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:16:00,897 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:16:00,898 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T181559.csv had anomaly rate of 0.06
+2026-03-11 18:16:00,940 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181559.csv
+2026-03-11 18:17:00,671 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:17:00,671 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:17:00,673 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181659.csv
+2026-03-11 18:17:01,023 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T181659.csv
+2026-03-11 18:17:01,058 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:17:01,092 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:17:01,092 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T181659.csv had anomaly rate of 0.05
+2026-03-11 18:17:01,121 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181659.csv
+2026-03-11 18:18:00,394 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:18:00,394 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:18:00,396 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181759.csv
+2026-03-11 18:18:00,810 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T181759.csv
+2026-03-11 18:18:00,839 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:18:00,866 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:18:00,867 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T181759.csv had anomaly rate of 0.05
+2026-03-11 18:18:00,898 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181759.csv
+2026-03-11 18:19:00,851 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:19:00,852 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:19:00,853 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181859.csv
+2026-03-11 18:19:01,251 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T181859.csv
+2026-03-11 18:19:01,293 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:19:01,329 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:19:01,330 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T181859.csv had anomaly rate of 0.07
+2026-03-11 18:19:01,364 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181859.csv
+2026-03-11 18:20:00,564 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:20:00,564 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:20:00,566 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181959.csv
+2026-03-11 18:20:00,982 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T181959.csv
+2026-03-11 18:20:01,039 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:20:01,068 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:20:01,068 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T181959.csv had anomaly rate of 0.07
+2026-03-11 18:20:01,113 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T181959.csv
+2026-03-11 18:21:00,942 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:21:00,943 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:21:00,944 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182059.csv
+2026-03-11 18:21:01,418 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T182059.csv
+2026-03-11 18:21:01,465 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:21:01,505 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:21:01,506 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T182059.csv had anomaly rate of 0.06
+2026-03-11 18:21:01,541 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182059.csv
+2026-03-11 18:22:00,674 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:22:00,675 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:22:00,676 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182159.csv
+2026-03-11 18:22:01,041 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T182159.csv
+2026-03-11 18:22:01,080 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:22:01,112 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:22:01,112 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T182159.csv had anomaly rate of 0.06
+2026-03-11 18:22:01,140 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182159.csv
+2026-03-11 18:23:01,162 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:23:01,162 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:23:01,164 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182259.csv
+2026-03-11 18:23:01,697 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T182259.csv
+2026-03-11 18:23:01,783 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:23:01,841 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:23:01,841 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T182259.csv had anomaly rate of 0.06
+2026-03-11 18:23:01,874 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182259.csv
+2026-03-11 18:24:01,050 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:24:01,050 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:24:01,052 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182359.csv
+2026-03-11 18:24:01,611 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T182359.csv
+2026-03-11 18:24:01,639 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:24:01,666 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:24:01,668 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T182359.csv had anomaly rate of 0.05
+2026-03-11 18:24:01,707 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182359.csv
+2026-03-11 18:25:01,391 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:25:01,392 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:25:01,394 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182500.csv
+2026-03-11 18:25:02,202 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T182500.csv
+2026-03-11 18:25:02,237 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:25:02,274 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:25:02,275 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T182500.csv had anomaly rate of 0.05
+2026-03-11 18:25:02,306 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182500.csv
+2026-03-11 18:26:01,034 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:26:01,034 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:26:01,036 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182600.csv
+2026-03-11 18:26:01,485 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T182600.csv
+2026-03-11 18:26:01,516 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:26:01,544 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:26:01,544 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T182600.csv had anomaly rate of 0.05
+2026-03-11 18:26:01,579 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182600.csv
+2026-03-11 18:27:01,615 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:27:01,615 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:27:01,617 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182700.csv
+2026-03-11 18:27:02,048 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T182700.csv
+2026-03-11 18:27:02,078 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:27:02,104 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:27:02,105 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T182700.csv had anomaly rate of 0.06
+2026-03-11 18:27:02,136 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182700.csv
+2026-03-11 18:28:01,248 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:28:01,249 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:28:01,250 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182800.csv
+2026-03-11 18:28:01,957 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T182800.csv
+2026-03-11 18:28:02,005 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:28:02,061 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:28:02,062 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T182800.csv had anomaly rate of 0.05
+2026-03-11 18:28:02,109 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182800.csv
+2026-03-11 18:29:01,754 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:29:01,755 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:29:01,760 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182900.csv
+2026-03-11 18:29:02,232 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T182900.csv
+2026-03-11 18:29:02,279 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:29:02,325 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:29:02,326 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T182900.csv had anomaly rate of 0.05
+2026-03-11 18:29:02,395 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T182900.csv
+2026-03-11 18:30:01,524 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:30:01,524 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:30:01,526 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183000.csv
+2026-03-11 18:30:02,634 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T183000.csv
+2026-03-11 18:30:02,673 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:30:02,701 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:30:02,702 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T183000.csv had anomaly rate of 0.05
+2026-03-11 18:30:02,761 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183000.csv
+2026-03-11 18:31:01,884 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:31:01,885 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:31:01,886 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183100.csv
+2026-03-11 18:31:02,428 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T183100.csv
+2026-03-11 18:31:02,455 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:31:02,486 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:31:02,487 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T183100.csv had anomaly rate of 0.05
+2026-03-11 18:31:02,552 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183100.csv
+2026-03-11 18:32:01,574 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:32:01,574 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:32:01,576 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183200.csv
+2026-03-11 18:32:02,057 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T183200.csv
+2026-03-11 18:32:02,089 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:32:02,120 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:32:02,121 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T183200.csv had anomaly rate of 0.06
+2026-03-11 18:32:02,183 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183200.csv
+2026-03-11 18:33:02,173 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:33:02,173 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:33:02,175 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183300.csv
+2026-03-11 18:33:02,561 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T183300.csv
+2026-03-11 18:33:02,586 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:33:02,637 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:33:02,638 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T183300.csv had anomaly rate of 0.05
+2026-03-11 18:33:02,667 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183300.csv
+2026-03-11 18:34:01,789 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:34:01,789 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:34:01,798 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183401.csv
+2026-03-11 18:34:02,334 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T183401.csv
+2026-03-11 18:34:02,369 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:34:02,398 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:34:02,403 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T183401.csv had anomaly rate of 0.05
+2026-03-11 18:34:02,431 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183401.csv
+2026-03-11 18:35:02,450 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:35:02,450 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:35:02,455 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183501.csv
+2026-03-11 18:35:02,869 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T183501.csv
+2026-03-11 18:35:02,902 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:35:02,939 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:35:02,939 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T183501.csv had anomaly rate of 0.05
+2026-03-11 18:35:02,973 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183501.csv
+2026-03-11 18:36:02,279 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:36:02,280 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:36:02,281 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183601.csv
+2026-03-11 18:36:03,022 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T183601.csv
+2026-03-11 18:36:03,062 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:36:03,095 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:36:03,096 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T183601.csv had anomaly rate of 0.05
+2026-03-11 18:36:03,133 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183601.csv
+2026-03-11 18:37:02,549 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:37:02,550 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:37:02,551 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183701.csv
+2026-03-11 18:37:02,982 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T183701.csv
+2026-03-11 18:37:03,010 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:37:03,039 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:37:03,041 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T183701.csv had anomaly rate of 0.06
+2026-03-11 18:37:03,071 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183701.csv
+2026-03-11 18:38:02,981 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:38:02,981 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:38:02,983 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183801.csv
+2026-03-11 18:38:03,359 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T183801.csv
+2026-03-11 18:38:03,392 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:38:03,424 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:38:03,425 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T183801.csv had anomaly rate of 0.06
+2026-03-11 18:38:03,456 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183801.csv
+2026-03-11 18:39:02,939 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:39:02,940 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:39:02,941 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183901.csv
+2026-03-11 18:39:03,322 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T183901.csv
+2026-03-11 18:39:03,353 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:39:03,384 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:39:03,385 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T183901.csv had anomaly rate of 0.05
+2026-03-11 18:39:03,412 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T183901.csv
+2026-03-11 18:40:03,312 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:40:03,313 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:40:03,314 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184002.csv
+2026-03-11 18:40:03,762 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T184002.csv
+2026-03-11 18:40:03,806 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:40:03,838 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:40:03,839 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T184002.csv had anomaly rate of 0.07
+2026-03-11 18:40:03,872 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184002.csv
+2026-03-11 18:41:02,993 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:41:02,993 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:41:02,995 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184102.csv
+2026-03-11 18:41:03,426 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T184102.csv
+2026-03-11 18:41:03,454 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:41:03,482 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:41:03,482 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T184102.csv had anomaly rate of 0.05
+2026-03-11 18:41:03,510 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184102.csv
+2026-03-11 18:42:03,687 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:42:03,687 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:42:03,689 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184202.csv
+2026-03-11 18:42:04,122 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T184202.csv
+2026-03-11 18:42:04,157 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:42:04,198 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:42:04,199 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T184202.csv had anomaly rate of 0.05
+2026-03-11 18:42:04,234 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184202.csv
+2026-03-11 18:43:03,929 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:43:03,929 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:43:03,931 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184302.csv
+2026-03-11 18:43:04,310 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T184302.csv
+2026-03-11 18:43:04,339 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:43:04,368 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:43:04,369 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T184302.csv had anomaly rate of 0.06
+2026-03-11 18:43:04,393 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184302.csv
+2026-03-11 18:44:03,687 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:44:03,687 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:44:03,689 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184402.csv
+2026-03-11 18:44:04,157 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T184402.csv
+2026-03-11 18:44:04,187 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:44:04,221 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:44:04,222 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T184402.csv had anomaly rate of 0.06
+2026-03-11 18:44:04,265 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184402.csv
+2026-03-11 18:45:04,255 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:45:04,255 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:45:04,256 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184502.csv
+2026-03-11 18:45:04,638 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T184502.csv
+2026-03-11 18:45:04,672 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:45:04,715 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:45:04,716 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T184502.csv had anomaly rate of 0.05
+2026-03-11 18:45:04,746 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184502.csv
+2026-03-11 18:46:03,961 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:46:03,961 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:46:03,962 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184602.csv
+2026-03-11 18:46:04,378 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T184602.csv
+2026-03-11 18:46:04,404 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:46:04,446 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:46:04,447 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T184602.csv had anomaly rate of 0.07
+2026-03-11 18:46:04,478 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184602.csv
+2026-03-11 18:47:04,298 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:47:04,298 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:47:04,300 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184703.csv
+2026-03-11 18:47:04,657 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T184703.csv
+2026-03-11 18:47:04,686 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:47:04,716 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:47:04,716 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T184703.csv had anomaly rate of 0.06
+2026-03-11 18:47:04,740 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184703.csv
+2026-03-11 18:48:04,180 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:48:04,181 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:48:04,182 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184803.csv
+2026-03-11 18:48:04,636 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T184803.csv
+2026-03-11 18:48:04,666 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:48:04,712 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:48:04,713 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T184803.csv had anomaly rate of 0.05
+2026-03-11 18:48:04,752 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184803.csv
+2026-03-11 18:49:04,465 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:49:04,466 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:49:04,467 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184903.csv
+2026-03-11 18:49:04,865 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T184903.csv
+2026-03-11 18:49:04,924 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:49:04,967 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:49:04,968 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T184903.csv had anomaly rate of 0.05
+2026-03-11 18:49:04,998 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T184903.csv
+2026-03-11 18:50:04,437 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:50:04,438 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:50:04,443 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185003.csv
+2026-03-11 18:50:04,987 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T185003.csv
+2026-03-11 18:50:05,027 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:50:05,069 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:50:05,069 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T185003.csv had anomaly rate of 0.05
+2026-03-11 18:50:05,103 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185003.csv
+2026-03-11 18:51:04,833 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:51:04,833 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:51:04,835 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185103.csv
+2026-03-11 18:51:05,308 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T185103.csv
+2026-03-11 18:51:05,335 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:51:05,365 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:51:05,366 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T185103.csv had anomaly rate of 0.05
+2026-03-11 18:51:05,409 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185103.csv
+2026-03-11 18:52:04,491 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:52:04,492 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:52:04,493 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185203.csv
+2026-03-11 18:52:04,873 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T185203.csv
+2026-03-11 18:52:04,902 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:52:04,938 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:52:04,939 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T185203.csv had anomaly rate of 0.05
+2026-03-11 18:52:04,971 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185203.csv
+2026-03-11 18:53:04,834 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:53:04,835 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:53:04,836 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185303.csv
+2026-03-11 18:53:05,253 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T185303.csv
+2026-03-11 18:53:05,282 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:53:05,313 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:53:05,313 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T185303.csv had anomaly rate of 0.05
+2026-03-11 18:53:05,339 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185303.csv
+2026-03-11 18:54:04,772 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:54:04,773 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:54:04,774 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185403.csv
+2026-03-11 18:54:05,220 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T185403.csv
+2026-03-11 18:54:05,256 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:54:05,313 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:54:05,313 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T185403.csv had anomaly rate of 0.05
+2026-03-11 18:54:05,344 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185403.csv
+2026-03-11 18:55:05,075 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:55:05,075 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:55:05,076 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185503.csv
+2026-03-11 18:55:05,446 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T185503.csv
+2026-03-11 18:55:05,481 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:55:05,513 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:55:05,514 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T185503.csv had anomaly rate of 0.06
+2026-03-11 18:55:05,544 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185503.csv
+2026-03-11 18:56:04,920 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:56:04,920 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:56:04,922 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185603.csv
+2026-03-11 18:56:05,328 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T185603.csv
+2026-03-11 18:56:05,362 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:56:05,390 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:56:05,391 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T185603.csv had anomaly rate of 0.06
+2026-03-11 18:56:05,435 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185603.csv
+2026-03-11 18:57:05,358 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:57:05,358 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:57:05,359 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185703.csv
+2026-03-11 18:57:05,720 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T185703.csv
+2026-03-11 18:57:05,748 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:57:05,783 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:57:05,784 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T185703.csv had anomaly rate of 0.07
+2026-03-11 18:57:05,809 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185703.csv
+2026-03-11 18:58:04,865 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:58:04,865 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:58:04,867 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185804.csv
+2026-03-11 18:58:05,241 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T185804.csv
+2026-03-11 18:58:05,284 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:58:05,327 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:58:05,328 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T185804.csv had anomaly rate of 0.07
+2026-03-11 18:58:05,364 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185804.csv
+2026-03-11 18:59:05,461 - INFO - app  :  Received SNS notification for processing
+2026-03-11 18:59:05,462 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 18:59:05,463 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185904.csv
+2026-03-11 18:59:05,900 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T185904.csv
+2026-03-11 18:59:05,975 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 18:59:06,008 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 18:59:06,009 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T185904.csv had anomaly rate of 0.05
+2026-03-11 18:59:06,044 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T185904.csv
+2026-03-11 19:00:05,213 - INFO - app  :  Received SNS notification for processing
+2026-03-11 19:00:05,214 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 19:00:05,218 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190004.csv
+2026-03-11 19:00:05,800 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T190004.csv
+2026-03-11 19:00:05,845 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 19:00:05,881 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 19:00:05,882 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T190004.csv had anomaly rate of 0.06
+2026-03-11 19:00:05,933 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190004.csv
+2026-03-11 19:01:05,621 - INFO - app  :  Received SNS notification for processing
+2026-03-11 19:01:05,622 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 19:01:05,623 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190104.csv
+2026-03-11 19:01:06,041 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T190104.csv
+2026-03-11 19:01:06,071 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 19:01:06,099 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 19:01:06,099 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T190104.csv had anomaly rate of 0.05
+2026-03-11 19:01:06,133 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190104.csv
+2026-03-11 19:02:05,246 - INFO - app  :  Received SNS notification for processing
+2026-03-11 19:02:05,246 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 19:02:05,247 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190204.csv
+2026-03-11 19:02:05,675 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T190204.csv
+2026-03-11 19:02:05,717 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 19:02:05,749 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 19:02:05,750 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T190204.csv had anomaly rate of 0.05
+2026-03-11 19:02:05,781 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190204.csv
+2026-03-11 19:03:05,732 - INFO - app  :  Received SNS notification for processing
+2026-03-11 19:03:05,732 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 19:03:05,734 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190304.csv
+2026-03-11 19:03:06,104 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T190304.csv
+2026-03-11 19:03:06,152 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 19:03:06,181 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 19:03:06,182 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T190304.csv had anomaly rate of 0.06
+2026-03-11 19:03:06,217 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190304.csv
+2026-03-11 19:04:05,553 - INFO - app  :  Received SNS notification for processing
+2026-03-11 19:04:05,553 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 19:04:05,554 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190404.csv
+2026-03-11 19:04:05,921 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T190404.csv
+2026-03-11 19:04:05,949 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 19:04:05,979 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 19:04:05,980 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T190404.csv had anomaly rate of 0.05
+2026-03-11 19:04:06,009 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190404.csv
+2026-03-11 19:05:05,922 - INFO - app  :  Received SNS notification for processing
+2026-03-11 19:05:05,922 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 19:05:05,924 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190504.csv
+2026-03-11 19:05:06,324 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T190504.csv
+2026-03-11 19:05:06,367 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 19:05:06,401 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 19:05:06,401 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T190504.csv had anomaly rate of 0.05
+2026-03-11 19:05:06,436 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190504.csv
+2026-03-11 19:06:05,578 - INFO - app  :  Received SNS notification for processing
+2026-03-11 19:06:05,578 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 19:06:05,580 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190604.csv
+2026-03-11 19:06:06,041 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T190604.csv
+2026-03-11 19:06:06,072 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 19:06:06,106 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 19:06:06,107 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T190604.csv had anomaly rate of 0.05
+2026-03-11 19:06:06,143 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190604.csv
+2026-03-11 19:07:06,153 - INFO - app  :  Received SNS notification for processing
+2026-03-11 19:07:06,154 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 19:07:06,155 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190704.csv
+2026-03-11 19:07:06,514 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T190704.csv
+2026-03-11 19:07:06,541 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 19:07:06,571 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 19:07:06,571 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T190704.csv had anomaly rate of 0.07
+2026-03-11 19:07:06,602 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190704.csv
+2026-03-11 19:08:05,812 - INFO - app  :  Received SNS notification for processing
+2026-03-11 19:08:05,812 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 19:08:05,814 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190805.csv
+2026-03-11 19:08:06,193 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T190805.csv
+2026-03-11 19:08:06,222 - INFO - baseline  :  Saved new baseline to S3
+2026-03-11 19:08:06,253 - INFO - baseline  :  Uploaded log file to S3
+2026-03-11 19:08:06,253 - INFO - processor  :  File s3://ds5220-project1-045511193184/raw/sensors_20260311T190805.csv had anomaly rate of 0.05
+2026-03-11 19:08:06,335 - INFO - processor  :  Finished Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190805.csv
+2026-03-11 19:09:06,296 - INFO - app  :  Received SNS notification for processing
+2026-03-11 19:09:06,296 - INFO - app  :  Received SNS event with 1 records
+2026-03-11 19:09:06,298 - INFO - processor  :  Started Processing: s3://ds5220-project1-045511193184/raw/sensors_20260311T190905.csv
+2026-03-11 19:09:06,734 - INFO - processor  :  Stored processed file to s3://ds5220-project1-045511193184/processed/sensors_20260311T190905.csv
+2026-03-11 19:09:06,764 - INFO - baseline  :  Saved new baseline to S3
